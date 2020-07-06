@@ -7,6 +7,8 @@ public class BackgroundTextureAnimator : MonoBehaviour
     private Material mat;
     private Vector2 offset;
 
+    public float speed = 0.2f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +19,7 @@ public class BackgroundTextureAnimator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        offset.x = offset.x + (0.2f * Time.deltaTime);
+        offset.x = offset.x + (speed * Time.deltaTime);
         mat.SetTextureOffset("_MainTex", offset);
     }
 }
