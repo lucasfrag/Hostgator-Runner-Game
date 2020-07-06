@@ -1,4 +1,10 @@
 # Hostgator Runner Game
+
+
+<p align="center">
+  <img src="https://www.hostgator.com.br/assets/images/icon-snappy-support.svg" width=""100>
+</p>
+
 Material do curso rápido de desenvolvimento de games Attekita Dev
 
 Game desenvolvido para HostGator em ação para Black Friday https://aventurahostgator.com.br
